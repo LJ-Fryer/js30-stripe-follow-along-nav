@@ -32,10 +32,10 @@ nav {
 }
 
 .cool > li > a {
-  color: #f6dfc2;
+  color: #f3ece4;
   text-decoration: none;
   font-size: 20px;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(245, 87, 87, 0.5) 80%;
   padding: 10px 20px;
   display: inline-block;
   margin: 20px;
@@ -81,11 +81,11 @@ nav ul {
   width: 100px;
   height: 100px;
   position: absolute;
-  background: #fff;
+  background: #f3ece4;
   border-radius: 4px;
-  box-shadow: 0 50px 100px rgba(50, 50, 93, 0.1),
-    0 15px 35px rgba(50, 50, 93, 0.15), 0 5px 15px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s, opacity 0.1s, transform 0.2s;
+  box-shadow: 0 50px 100px rgba(129, 129, 240, 0.1),
+    0 15px 35px rgba(129, 129, 240, 0.15), 0 5px 15px rgba(250, 249, 249, 0.1);
+  transition: all 0.3s, opacity 0.1s, translate 0.2s;
   transform-origin: 50% 0;
   display: flex;
   justify-content: center;
@@ -101,7 +101,7 @@ nav ul {
   width: 20px;
   height: 20px;
   display: block;
-  background: white;
+  background: #f3ece4;
   transform: translateY(-50%) rotate(45deg);
 }
 
@@ -111,6 +111,7 @@ nav ul {
   justify-content: center;
   align-items: center;
   line-height: 1.7;
+  color: hsl(242, 100%, 11%);
 }
 
 .bio img {
@@ -126,11 +127,12 @@ nav ul {
   padding: 10px 0;
   display: block;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  color: #008080;
 }
 
 .dropdown a {
   text-decoration: none;
-  color: #ff8000;
+  color: hsl(13, 96%, 50%);
 }
 
 a.button {
@@ -142,12 +144,15 @@ a.button {
 }
 
 /* Matches Twitter, TWITTER, twitter, tWitter, TWiTTeR... */
-.button[href*="twitter"] {
-  background: #019fe9;
+.button[href*="instagram"] {
+  background: #ec016f;
 }
-.button[href*="facebook"] {
-  background: #3b5998;
+.button[href*="linkedin"] {
+  background: #0c60be;
 }
-.button[href*="courses"] {
-  background: #ffc600;
+.button[href*="shecodes"] {
+  background: #8246ae;
+}
+.button[href*="lj-fryer.netlify"] {
+  background: #008080;
 }
